@@ -19,13 +19,9 @@ ResNet20 (Thanks to the [Keras Idiomatic Programmer](https://github.com/GoogleCl
 - `Visualization.ipynb`: Visualizes the learned convolution filters of the networks. 
 
 ## Some interesting findings (of course credits to the author)
-
 Below is the output of the first trained convolution layer (all the layers were trained from scratch in this case)
-
 ![](https://i.ibb.co/p1YZtQL/image.png)
-
 Below is the output of the first trained convolution layer (*this time only the Batch Norm layers were trained*)
-
 ![](https://i.ibb.co/74gLSxr/image.png)
 
 More results can be found here: https://app.wandb.ai/sayakpaul/training-bn-only. 
