@@ -18,7 +18,7 @@ ResNet20 (Thanks to the [Keras Idiomatic Programmer](https://github.com/GoogleCl
 - `CIFAR10_Full_TPU_Different_LR_Schedules.ipynb`: Runs experiments on a TPU with the full CIFAR10 dataset but with different learning rate schedules.
 - `Visualization.ipynb`: Visualizes the learned convolution filters of the networks. 
 
-## Some interesting findings (of course credits to the author)
+## Some interesting findings (of course credits to the authors)
 Below is the output of the first trained convolution layer (all the layers were trained from scratch in this case)
 ![](https://i.ibb.co/p1YZtQL/image.png)
 Below is the output of the first trained convolution layer (*this time only the Batch Norm layers were trained*)
@@ -27,9 +27,7 @@ Below is the output of the first trained convolution layer (*this time only the 
 More results can be found here: https://app.wandb.ai/sayakpaul/training-bn-only. 
 
 ## Important note
-
 I trained both the variants of the networks for 75 epochs. Naturally the one that contains only the BN layers as trainable ones would take longer to converge because of the number of parameters. But that can be used as a proxy to alleviate the problems of huge model size.
 
 ## Acknowledgements
-
 Although the notebooks are available as Colab-ready I trained all of them on a pre-configured AI Platform Notebook to make experiments more reproducible. Thanks to the **ML-GDE program** program for the GCP Credits. 
