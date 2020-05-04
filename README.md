@@ -3,7 +3,7 @@ Experiments with the ideas presented in [Training BatchNorm and Only BatchNorm: 
 - They first set all the layers of a CNN to `trainable=False`. 
 - Before they kickstart model training, they also set the Batch Norm layers to be trainable. 
 
-This simple experimental setup led to some pretty amazing discoveries on the expressive power of the randomly initialized layers in a CNN. So, the authors further explore the question what if we _only_ train the Batch Norm layers and lead this setup to potential optimum? Their findings were pretty intriguing. 
+This simple experimental setup led to some pretty amazing discoveries on the expressive power of the randomly initialized layers in a CNN. So, the authors further explore the question - *what if we only train the Batch Norm layers and lead this setup to a potential optimum?* Their findings were pretty intriguing.
 
 ## Dataset used
 CIFAR10
