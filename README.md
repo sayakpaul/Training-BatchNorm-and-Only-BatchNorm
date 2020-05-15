@@ -16,6 +16,8 @@ ResNet20 (Thanks to the [Keras Idiomatic Programmer](https://github.com/GoogleCl
 - `CIFAR10_Full.ipynb`: Runs experiments on a GPU with the full CIFAR10 dataset.
 - `CIFAR10_Full_TPU.ipynb`: Runs experiments on a TPU with the full CIFAR10 dataset.
 - `CIFAR10_Full_TPU_Different_LR_Schedules.ipynb`: Runs experiments on a TPU with the full CIFAR10 dataset but with different learning rate schedules.
+- `All_Layers_Frozen.ipynb`: As the name suggests this notebook shows what happens when all the layers of a CNN is made _non-trainable_.
+- `Varying_Batch_Sizes.ipynb`: Runs experiments with varying batch sizes (only batch norm layer as trainable).
 - `Visualization.ipynb`: Visualizes the learned convolution filters of the networks. 
 
 ## Some interesting findings (of course credits to the authors)
