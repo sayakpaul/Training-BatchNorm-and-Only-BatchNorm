@@ -30,7 +30,7 @@ Below is the output of the first trained convolution layer (*this time only the 
 
 ![](https://i.ibb.co/k0D8fP3/Webp-net-resizeimage.png)
 
-More results can be found here: https://app.wandb.ai/sayakpaul/training-bn-only. 
+More results can be found here: https://app.wandb.ai/sayakpaul/training-bn-only. A more detailed report can be found [here](https://app.wandb.ai/sayakpaul/training-bn-only/reports/How-powerful-the-randrom-features-of-a-CNN-can-be%3F--VmlldzoxMTIxODA).
 
 ## Important note
 I trained both the variants of the networks for 75 epochs. Naturally, the one that contains only the BN layers as trainable ones would take longer to converge because of the number of parameters. But that can be used as a proxy to alleviate the problems of huge model size.
