@@ -32,4 +32,4 @@ More results can be found here: https://app.wandb.ai/sayakpaul/training-bn-only.
 I trained both the variants of the networks for 75 epochs. Naturally, the one that contains only the BN layers as trainable ones would take longer to converge because of the number of parameters. But that can be used as a proxy to alleviate the problems of huge model size.
 
 ## Acknowledgements
-Although the notebooks are available as Colab-ready I trained all of them on a pre-configured AI Platform Notebook to make experiments more reproducible. Thanks to the **ML-GDE program** program for the GCP Credits. 
+Although the notebooks are available as Colab-ready I trained all of them on a pre-configured AI Platform Notebook to make the experiments more reproducible. Thanks to the **ML-GDE program** program for the GCP Credits. 
