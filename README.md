@@ -19,6 +19,7 @@ ResNet20 (Thanks to the [Keras Idiomatic Programmer](https://github.com/GoogleCl
 - `All_Layers_Frozen.ipynb`: As the name suggests this notebook shows what happens when all the layers of a CNN is made _non-trainable_.
 - `Varying_Batch_Sizes.ipynb`: Runs experiments with varying batch sizes (only batch norm layer as trainable).
 - `Visualization.ipynb`: Visualizes the learned convolution filters of the networks. 
+- `Visualization_II.ipynb`: Almost same as `Visualization.ipynb` with a bit different visualization plots. 
 
 ## Some interesting findings (of course credits to the authors)
 Below is the output of the first trained convolution layer (all the layers were trained from scratch in this case)
