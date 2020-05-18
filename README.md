@@ -22,10 +22,10 @@ ResNet20 (Thanks to the [Keras Idiomatic Programmer](https://github.com/GoogleCl
 - `Visualization_II.ipynb`: Almost same as `Visualization.ipynb` with a bit different visualization plots. 
 
 ## Some interesting findings (of course credits to the authors)
-Below is the output of the first trained convolution layer (all the layers were trained from scratch in this case)
-![](https://i.ibb.co/p1YZtQL/image.png)
+Below is the output of the first trained convolution layer (**all the layers were trained from scratch in this case**)
+![](https://i.ibb.co/ZTdY4pB/download.png)
 Below is the output of the first trained convolution layer (*this time only the Batch Norm layers were trained*)
-![](https://i.ibb.co/74gLSxr/image.png)
+![](https://i.ibb.co/drPbsnP/download-1.png)
 
 More results can be found here: https://app.wandb.ai/sayakpaul/training-bn-only. 
 
