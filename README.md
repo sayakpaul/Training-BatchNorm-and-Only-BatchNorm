@@ -1,5 +1,5 @@
 # Training-BatchNorm-and-Only-BatchNorm
-Experiments with the ideas presented in [Training BatchNorm and Only BatchNorm: On the c of Random Features in CNNs](https://arxiv.org/abs/2003.00152) by Frankle et al. In this paper, Frankle et al. explore the expressiveness of the random features in CNNs by starting with the following experimental setup:
+Experiments with the ideas presented in [Training BatchNorm and Only BatchNorm: On the Expressive Power of Random Features in CNNs](https://arxiv.org/abs/2003.00152) by Frankle et al. In this paper, Frankle et al. explore the expressiveness of the random features in CNNs by starting with the following experimental setup:
 - They first set all the layers of a CNN to `trainable=False`. 
 - Before they kickstart model training, they also set the Batch Norm layers to be trainable. 
 
